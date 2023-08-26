@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+*{
+     font-family: 'Roboto Slab', serif;
+     /* overflow-x: hidden; */
+}
+
+
+.nav-item{
+    font-size: 18px;
+    list-style: none;
+}
+.hero,.service,.staff,.footer{
+    background-color: #fdf0e9; 
+ }
+.online-btn{
+    background-color:rgba(114,86,157,255);
+    color: white;
+}
+.online-btn:hover{
+    transition: 0.5s all ease-in-out;
+    background-color:white;
+    color: black;
+}
+.star{
+    background-color: rgb(246, 211, 197); 
+}
+.nav-item:hover{
+    color: rgba(231, 102, 26, 0.95);
+}
+.book-btn{
+    background-color: rgb(121, 48, 190);
+    /* padding: 15px; */
+}
+.service-head,.dr-bull,.gb{
+   color: rgb(125, 103, 145);
+}
+.Appointment{
+    background-color: rgb(37, 37, 85);
+}
+.navigate{
+    width: 95%;
+    margin: auto;
+}
+.brain-hero{
+    top: 390px;
+    left: 30px;
+}
+.img-1{
+    border: 15px solid white;
+}
+.Doctor-head{
+    font-size: 70px;
+}
+.hero{
+    height: 55rem;
+}
+.service-main{
+    height: 53rem;
+}
+.hero-main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.black{
+    justify-content: space-around;
+}
+.cards:hover .neuro-img{
+    background-color: white;
+}
+.cards:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+    background-color: #f0ded6;
+}
+.neuro-img{
+    background-color: #e2cfcc;
+}
+.cards,.l{
+    border: 1px solid rgb(255, 168, 168);
+ 
+}
+.emer{
+    color: rgb(120, 123, 165);
+    border: 1px solid rgb(233, 205, 205);
+}
+.emer:hover,.rating{
+    transition: 0.5s all ease-in-out;
+    background-color: rgb(134, 93, 175);
+    color: white;
+}
+.s,.feature-1{
+    border: 10px solid white;
+}
+.feature-3{
+    bottom: 620px;
+    left: 450px;
+}
+.rating{
+    bottom: 610px;
+    left: 100px;
+}
+.blog,.Doctors{
+    transition: 0.5s all ease-in-out;
+    border-top:  2px solid rgb(244, 222, 186);
+    border-left:  2px solid rgb(244, 222, 186);
+    border-right: 2px solid rgb(244, 222, 186); 
+    border-bottom:2px solid rgb(244, 222, 186);
+}
+.Doctors{
+    border-top: none;
+}
+.blog:hover,.online-btn:hover{
+    
+    border-top:  2px solid rgb(102, 66, 134);
+    border-left:    2px solid rgb(102, 66, 134);
+    border-right:  2px solid rgb(102, 66, 134); 
+    border-bottom: 2px solid rgb(102, 66, 134);
+}
+.blog-1{
+    background-color: rgb(244, 236, 222);
+    color: rgb(120, 123, 165);
+}
+.blog:hover h1{
+    transition: 0.5s all ease-in-out;
+    background-color: rgb(103, 52, 151);
+    color: white;
+}
+.d{
+    height: 355px;
+}
+.c{
+    border-top: 1px solid gray;
+}
+.breadcrumb{
+    height: 400px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    background-position: 50% 0%;
+    background-image: url(https://wpolive.com/dotus/wp-content/uploads/2023/07/page-title.jpg); 
+}
+.box{
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    left:  0%;
+    bottom: -100%;
+    height: 20%;
+    width: 100%;
+    color: #fff;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+.Doctors:hover .content{
+    bottom:  0;
+}
+.icon-doctor{
+   background-color: rgb(103, 52, 151);
+}
+.Doctors,.blog {
+    overflow: hidden;
+}
+.box img {
+    object-fit: cover;
+    transition-duration: 1000ms;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+    transition-property: all;
+    transition: 0.5s all ease-in-out;
+}
+.Doctors:hover img ,.blog:hover img  {
+    transform: scale(1.2);
+}
+.map{
+    height: 500px;
+}
+.page-main{
+    border-bottom: 1px solid gray ;
+}
+.page-mak{
+    background-color:rgb(216, 195, 235) ;
+    border-left: 5px solid rgb(191, 123, 255);
+}
