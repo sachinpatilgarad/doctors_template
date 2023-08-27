@@ -6,7 +6,9 @@
 
 
 .nav-item{
+    /* padding: 10px; */
     font-size: 18px;
+    color: black;
     list-style: none;
 }
 .hero,.service,.staff,.footer{

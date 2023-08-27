@@ -17,22 +17,22 @@ function Navigation(){
           </button>
           <div class="collapse fw-bold navbar-collapse" id="myNav">
             <ul class="navbar-nav mx-auto ps-4 ps-lg-0 mb-2 mb-lg-0">
-            <li className="nav-item">
+            <li className="nav-item p-lg-3">
                         <Link to="/" className="nav-link">Home</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item p-lg-3">
                         <Link to="/About" className="nav-link">About</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item p-lg-3">
                         <Link to="/Department" className="nav-link">Department</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item p-lg-3">
                         <Link to="/Pages" className="nav-link">Pages</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item p-lg-3">
                         <Link to="/Shop" className="nav-link">Shop</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item p-lg-3">
                         <Link to="/Contact" className="nav-link">Contact</Link>
                     </li>
                 </ul>   
